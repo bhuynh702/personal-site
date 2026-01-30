@@ -1,3 +1,5 @@
+import { getAssetPath } from '@/lib/utils';
+
 interface ThemePortraitProps {
   width: number;
   height: number;
@@ -25,7 +27,7 @@ export default function ThemePortrait({
     <span className={`theme-portrait ${className}`}>
       {/* biome-ignore lint/performance/noImgElement: Using native img to avoid next/image runtime overhead for static export */}
       <img
-        src="/images/me-light.jpg"
+        src={getAssetPath('/images/me-light.jpg')}
         alt="Michael D'Angelo"
         width={width}
         height={height}
@@ -35,7 +37,7 @@ export default function ThemePortrait({
       />
       {/* biome-ignore lint/performance/noImgElement: Using native img to avoid next/image runtime overhead for static export */}
       <img
-        src="/images/me-dark.jpg"
+        src={getAssetPath('/images/me-dark.jpg')}
         alt="Michael D'Angelo"
         width={width}
         height={height}

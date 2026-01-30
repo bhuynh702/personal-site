@@ -1,8 +1,14 @@
 import bundleAnalyzer from '@next/bundle-analyzer';
 import type { NextConfig } from 'next';
 
+const isProd = process.env.NODE_ENV === 'production';
+
 const nextConfig: NextConfig = {
   output: 'export',
+
+  // Set basePath for GitHub Pages subdirectory deployment
+  basePath: isProd ? '/personal-site' : '',
+  assetPrefix: isProd ? '/personal-site/' : '',
 
   // Allow dev server access from local network (mobile testing, etc.)
   allowedDevOrigins: ['http://192.168.*.*:3000'],
