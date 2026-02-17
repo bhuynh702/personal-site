@@ -1,4 +1,4 @@
-# Adapting This Website
+"homepage": "https://yourdomain.com/"# Adapting This Website
 
 Fork this repo and make it your own personal site. You can have it running in 30 minutes.
 
