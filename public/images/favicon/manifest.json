@@ -1,19 +1,19 @@
 {
   "name": "mldangelo.com",
-  "short_name": "MD",
+  "short_name": "BH",
   "theme_color": "#2e59ba",
   "background_color": "#2e59ba",
   "display": "standalone",
   "icons": [
     {
-      "src": "/images/favicon/android-icon-36x36.png",
-      "sizes": "36x36",
+      "src": "public/images/favicon/favicon-32x32.png",
+      "sizes": "32x32",
       "type": "image/png",
       "density": "0.75"
     },
     {
-      "src": "/images/favicon/android-icon-48x48.png",
-      "sizes": "48x48",
+      "src": "public/images/favicon/favicon-32x32.png",
+      "sizes": "32x32",
       "type": "image/png",
       "density": "1.0"
     },
