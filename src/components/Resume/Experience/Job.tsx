@@ -14,7 +14,7 @@ export default function Job({ data }: JobProps) {
     <article className="jobs-container">
       <header>
         <h4>
-          <a href={url}>{name}</a> - {position}
+          <a href={url}>{name}</a> {position}
         </h4>
         <p className="daterange">
           {' '}

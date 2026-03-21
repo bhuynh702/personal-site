@@ -7,7 +7,7 @@ import { formatDate } from '@/lib/utils';
 
 export const metadata: Metadata = {
   title: 'Writing',
-  description: 'Articles on AI security, LLM red teaming, and trust & safety.',
+  description: '',
   alternates: {
     types: {
       'application/rss+xml': '/feed.xml',

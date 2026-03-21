@@ -15,112 +15,104 @@ const skills: Skill[] = [
   // Languages
   {
     title: 'Python',
-    competency: 5,
-    category: ['Languages', 'ML Engineering'],
+    competency: 4,
+    category: ['Programming'],
   },
   {
-    title: 'TypeScript',
-    competency: 5,
-    category: ['Languages', 'Web Development'],
+    title: 'C++',
+    competency: 4,
+    category: ['Programming'],
   },
   {
     title: 'SQL',
     competency: 4,
-    category: ['Languages', 'Databases'],
-  },
-  // AI & LLM
-  {
-    title: 'AI Agents',
-    competency: 5,
-    category: ['ML Engineering'],
+    category: ['Programming', 'Data'],
   },
   {
-    title: 'LLM Evaluation',
-    competency: 5,
-    category: ['ML Engineering'],
-  },
-  {
-    title: 'AI Red-teaming',
-    competency: 5,
-    category: ['ML Engineering'],
-  },
-  {
-    title: 'LLM APIs',
-    competency: 5,
-    category: ['ML Engineering'],
-  },
-  {
-    title: 'RAG',
+    title: 'NumPy',
     competency: 4,
-    category: ['ML Engineering'],
+    category: ['Data'],
   },
+
+  // Productivity
   {
-    title: 'Prompt Engineering',
+    title: 'Google Workspace (Docs, Sheets, Slides)',
     competency: 4,
-    category: ['ML Engineering'],
+    category: ['Productivity'],
   },
   {
-    title: 'Vector Databases',
-    competency: 4,
-    category: ['ML Engineering', 'Databases'],
-  },
-  {
-    title: 'PyTorch',
-    competency: 4,
-    category: ['ML Engineering'],
-  },
-  {
-    title: 'Pandas',
-    competency: 5,
-    category: ['ML Engineering', 'Data Engineering'],
-  },
-  // Web Development
-  {
-    title: 'Node.js',
-    competency: 5,
-    category: ['Web Development'],
-  },
-  {
-    title: 'FastAPI',
-    competency: 4,
-    category: ['Web Development'],
-  },
-  {
-    title: 'Next.js',
+    title: 'Spreadsheet Formulas (Excel, Google Sheets)',
     competency: 3,
-    category: ['Web Development'],
+    category: ['Data'],
   },
-  // Databases
+  // Design & Media
   {
-    title: 'PostgreSQL',
+    title: 'Canva',
     competency: 4,
-    category: ['Databases'],
+    category: ['Design & Media'],
   },
   {
-    title: 'Redis',
-    competency: 3,
-    category: ['Databases'],
-  },
-  // Infrastructure
-  {
-    title: 'AWS',
+    title: 'Video Editing (iMovie, CapCut)',
     competency: 4,
-    category: ['Infrastructure'],
+    category: ['Design & Media'],
   },
   {
-    title: 'Docker',
+    title: 'Procreate',
     competency: 4,
-    category: ['Infrastructure'],
+    category: ['Design & Media'],
   },
   {
-    title: 'Kubernetes',
-    competency: 3,
-    category: ['Infrastructure'],
-  },
-  {
-    title: 'Observability',
+    title: 'Adobe (Acrobat, Photoshop)',
     competency: 4,
-    category: ['Infrastructure', 'ML Engineering'],
+    category: ['Design & Media'],
+  },
+  // Personal 
+  {
+    title: 'Time Management',
+    competency: 4,
+    category: ['Personal'],
+  },
+  {
+    title: 'Adaptability',
+    competency: 4,
+    category: ['Personal'],
+  },
+  {
+    title: 'Flexibility',
+    competency: 4,
+    category: ['Personal'],
+  },
+  // Communication
+  {
+    title: 'Verbal Communication (Presentations, Meetings)',
+    competency: 4,
+    category: ['Communication'],
+  },
+  {
+    title: 'Conversational Vietnamese',
+    competency: 4,
+    category: ['Communication'],
+  },
+  {
+    title: 'Beginner Spanish',
+    competency: 4,
+    category: ['Communication'],
+  },
+  // Interpersonal
+  {
+    title: 'Customer Service',
+    competency: 4,
+    category: ['Interpersonal'],
+  },
+  {
+    title: 'Conflict Resolution',
+    competency: 4,
+    category: ['Interpersonal'],
+  },
+  {
+    title: 'Handling High-Pressure Situations',
+    competency: 4,
+    category: ['Interpersonal'],
   },
 ].map((skill) => ({ ...skill, category: skill.category.sort() }));
 

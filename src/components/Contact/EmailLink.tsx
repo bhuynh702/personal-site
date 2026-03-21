@@ -169,8 +169,8 @@ export default function EmailLink({ loopMessage = false }: EmailLinkProps) {
 
   const emailContent = (
     <>
-      <span className="contact-email-prefix">{displayMessage}</span>
-      <span className="contact-email-domain">@mldangelo.com</span>
+      
+      <span className="contact-email-domain">bhuynh4@umbc.com</span>
     </>
   );
 
@@ -182,7 +182,7 @@ export default function EmailLink({ loopMessage = false }: EmailLinkProps) {
     >
       {isValid ? (
         <a
-          href={`mailto:${displayMessage}@mldangelo.com`}
+          href={`mailto:bhuynh4@umbc.com`}
           className="contact-email-link"
           onClick={handleClick}
           onKeyDown={handleKeyDown}

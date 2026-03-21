@@ -7,27 +7,22 @@ export default function Hero() {
     <section className="hero">
       <div className="hero-content">
         <div className="hero-avatar">
-          <ThemePortrait width={160} height={160} priority />
+          <ThemePortrait width={180} height={180} priority />
         </div>
 
         <h1 className="hero-title">
-          <span className="hero-name">Michael D&apos;Angelo</span>
+          <span className="hero-name">Brittany Huynh</span>
         </h1>
 
         <p className="hero-tagline">
-          Co-founder & CTO at{' '}
-          <a href="https://promptfoo.dev" className="hero-highlight">
-            Promptfoo
-          </a>
-          , the most widely adopted open-source LLM security platform.
-          <br />
-          Building AI products for over a decade.
+          Information Systems and Psychology student with 
+          customer-facing work experience and a strong interest 
+          in technology and business. 
         </p>
 
         <div className="hero-chips">
-          <span className="hero-chip">YC Alum</span>
-          <span className="hero-chip">Stanford ICME</span>
-          <span className="hero-chip">Co-founded Arthena & Matroid</span>
+          <span className="hero-chip">UMBC Third Year</span>
+          <span className="hero-chip">Receptionist/Manager at Inspire Nail Bar</span>
         </div>
 
         <div className="hero-cta">

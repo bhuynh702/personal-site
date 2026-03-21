@@ -3,8 +3,9 @@
 import { useEffect, useRef, useState } from 'react';
 
 const sections = [
-  { name: 'Experience', id: 'experience' },
+  { name: 'Project Experience', id: 'experience' },
   { name: 'Education', id: 'education' },
+  { name: 'Unofficial Transcript', id: 'transcript', href: '/documents/SSR_TSRPT.pdf', external: true },
   { name: 'Skills', id: 'skills' },
   { name: 'Courses', id: 'courses' },
   { name: 'References', id: 'references' },
@@ -85,9 +86,10 @@ export default function ResumeNav() {
       {sections.map((section) => (
         <a
           key={section.id}
-          href={`#${section.id}`}
+          href={'href' in section ? section.href : `#${section.id}`}
           className={`resume-nav-link ${activeSection === section.id ? 'active' : ''}`}
           aria-current={activeSection === section.id ? 'location' : undefined}
+          {...('external' in section && { target: '_blank', rel: 'noopener noreferrer' })}
         >
           {section.name}
         </a>

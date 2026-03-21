@@ -23,7 +23,7 @@
 /* Portrait */
 .hero-avatar {
   width: 160px;
-  height: 160px;
+  height: 240px;
   margin: 0 auto 2.5rem;
   border-radius: var(--radius-xl);
   position: relative;
@@ -187,7 +187,7 @@
 
   .hero-avatar {
     width: 140px;
-    height: 140px;
+    height: 210px;
     margin-bottom: 2rem;
   }
 

@@ -4,8 +4,8 @@
 
 // Site configuration
 export const SITE_URL = 'https://bhuynh702.github.io/personal-site';
-export const AUTHOR_NAME = "Michael D'Angelo";
-export const TWITTER_HANDLE = '@dangelosaurus';
+export const AUTHOR_NAME = "Brittany Huynh";
+export const TWITTER_HANDLE = '';
 
 // Base path for assets (set during build for GitHub Pages)
 export const BASE_PATH =

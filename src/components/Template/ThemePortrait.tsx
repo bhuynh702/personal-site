@@ -27,8 +27,8 @@ export default function ThemePortrait({
     <span className={`theme-portrait ${className}`}>
       {/* biome-ignore lint/performance/noImgElement: Using native img to avoid next/image runtime overhead for static export */}
       <img
-        src={getAssetPath('/images/me-light.jpg')}
-        alt="Michael D'Angelo"
+        src={getAssetPath('/images/brittany.png')}
+        alt="Brittany Huynh"
         width={width}
         height={height}
         loading={priority ? 'eager' : 'lazy'}
@@ -37,8 +37,8 @@ export default function ThemePortrait({
       />
       {/* biome-ignore lint/performance/noImgElement: Using native img to avoid next/image runtime overhead for static export */}
       <img
-        src={getAssetPath('/images/me-dark.jpg')}
-        alt="Michael D'Angelo"
+        src={getAssetPath('/images/brittany.png')}
+        alt="Brittany Huynh"
         width={width}
         height={height}
         loading="lazy"

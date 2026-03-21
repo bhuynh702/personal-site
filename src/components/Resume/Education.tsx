@@ -16,6 +16,15 @@ export default function Education({ data }: EducationProps) {
       {data.map((degree) => (
         <Degree data={degree} key={degree.school} />
       ))}
+      <p style={{ marginTop: '1rem' }}>
+        <a
+          href="/documents/SSR_TSRPT.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          VIEW Unofficial Transcript (PDF)
+        </a>
+      </p>
     </div>
   );
 }
