@@ -13,7 +13,7 @@ const data: WritingItem[] = [
     description: ''
   },
   {
-    title: 'Article Review of "Cadets helping businesses address cybersecurity',
+    title: 'Article Review of "Cadets helping businesses address cybersecurity"',
     url: 'https://app.box.com/s/sqi54iopgpe28gft82ro8nt4n5gvulnj',
     date: '2026-03-12',
     description: ''
