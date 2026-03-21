@@ -18,7 +18,7 @@ export default function Education({ data }: EducationProps) {
       ))}
       <p style={{ marginTop: '1rem' }}>
         <a
-          href="/documents/SSR_TSRPT.pdf"
+          href="https://app.box.com/s/d6uk5xh583rpzdtd09whwhp35z73egg5"
           target="_blank"
           rel="noopener noreferrer"
         >

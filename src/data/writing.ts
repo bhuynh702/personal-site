@@ -8,25 +8,31 @@ export interface WritingItem {
 const data: WritingItem[] = [
   {
     title: 'Article Review: Roblox-Shopify Partnership',
-    url: '/documents/Article_Review_Roblox_Shopify_Partnership.pdf',
+    url: 'https://app.box.com/s/yff6p3nno7mlqp8kfy13zj3vhx6xrbm1',
     date: '2024-09-24',
     description: ''
   },
   {
+    title: 'Article Review of "Cadets helping businesses address cybersecurity',
+    url: 'https://app.box.com/s/sqi54iopgpe28gft82ro8nt4n5gvulnj',
+    date: '2026-03-12',
+    description: ''
+  },
+  {
     title: 'Exploring the Shift: Changing Perspectives on Marijuana Use Among Young Women and its Consequences',
-    url: '/documents/Exploring_the_Shift_Changing_Perspectives_on_Marijuana_Use_Among_Young_Women_and_its_Consequences.pdf',
+    url: 'https://app.box.com/s/k1ckcw4m7gmznkmtv5rqw7z4lvpew5e5',
     date: '2023-11-01',
     description: ''
   },
   {
     title: 'Practice of Management Final Project - My Company EZGlam',
-    url: '/documents/Practice_of_Management_Final_Project_My_Company_EZGlam.pdf',
+    url: 'https://app.box.com/s/e2jzotp2828he4i7qw5xz3uwkac6o3fl',
     date: '2024-05-01',
     description: ''
   },
   {
     title: 'Rhetorical Analysis: Instagram Teen Accounts Advertisement',
-    url: '/documents/Rhetorical_Analysis_Instagram_Teen_Accounts_Advertisement.pdf',
+    url: 'https://app.box.com/s/c3dy40w3gsnj73mqk4fo3agjc4ce1ib0',
     date: '2026-03-02',
     description: ''
   },
