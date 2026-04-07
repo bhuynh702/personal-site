@@ -37,7 +37,7 @@ export default function ThemePortrait({
       />
       {/* biome-ignore lint/performance/noImgElement: Using native img to avoid next/image runtime overhead for static export */}
       <img
-        src={getAssetPath('/images/brittany.png')}
+        src={getAssetPath('/images/brittany2.png')}
         alt="Brittany Huynh"
         width={width}
         height={height}
